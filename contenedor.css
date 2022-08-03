@@ -1,44 +1,47 @@
 .contenedor{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+    flex-direction: column;
     width: 450px;
     height: 450px;
     background-color: #fff;
     margin: auto;
     border: 2px solid black;
     color: #fff;
-    
 }
+
 
 #rojo{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 150px;
     height:150px;
     background-color: red;
-  
-    
 }
 
 #azul{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 150px;
     height:150px;
     background-color: blue;
-
 }
 
 #verde{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 150px;
     height:150px;
     background-color: green;
-
 }
 
